@@ -59,11 +59,12 @@ With the powerful options, you can do hard tasks with Kingfisher in a simple way
 
 1. Downloads a high-resolution image.
 2. Downsamples it to match the image view size.
-3. Makes it round cornered with a given radius.
-4. Shows a system indicator and a placeholder image while downloading.
-5. When prepared, it animates the small thumbnail image with a "fade in" effect. 
-6. The original large image is also cached to disk for later use, to get rid of downloading it again in a detail view.
-7. A console log is printed when the task finishes, either for success or failure.
+3. Make it original project with image
+4. Makes it round cornered with a given radius.
+5. Shows a system indicator and a placeholder image while downloading.
+6. When prepared, it animates the small thumbnail image with a "fade in" effect. 
+7. The original large image is also cached to disk for later use, to get rid of downloading it again in a detail view.
+8. A console log is printed when the task finishes, either for success or failure.
 
 ```swift
 let url = URL(string: "https://example.com/high_resolution_image.png")
